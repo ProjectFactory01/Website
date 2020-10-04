@@ -1,0 +1,150 @@
+body{
+    text-align: center;
+}
+
+#title{
+    background-color: #ff6363; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center !important;
+}
+
+/* Tags Selections  */
+
+h1,h2,h3,h4,h5,h6{  
+    font-family: 'Montserrat', sans-serif;     
+ }     
+ p{
+     color: #8f8f8f;
+ }
+
+
+
+ /* navigation */
+
+ .navbar-brand{
+     font-family: Ubuntu;     
+ }
+
+ .nav-link{
+     font-size: 1.2rem;
+     font-family: Ubuntu;
+    }
+
+    /* title-image */
+
+    .title-image{
+                 width: 40%;
+                transform: rotate(25deg);
+                margin-bottom: 30px;
+                padding: 3% 3%;   
+    }
+
+/* Headings */
+
+.big-head{
+    size: 3rem;
+    text-align: left;
+    line-height: 1.5; 
+    margin-left: 150px;
+    color: white;
+  }
+  .section-heading{
+    font-size: 2.5rem;
+    line-height:1.5;
+  }  
+  
+ .container
+ {
+     padding: 3% 3%;
+ }
+
+
+    /* Features */
+    #features{
+        padding: 8% 10%;
+    }
+    .feature_title{
+        font-size: 1.5rem;
+
+
+    }
+    .feature_box{
+        text-align: center;
+        padding: 1%;
+    }
+    .icon{
+        color:#ff6363 ;
+        margin-bottom: 1rem; 
+        font-size: 50px; 
+    }
+    .icon:hover{
+        color:#ff4c68 ;
+        margin-bottom: 1rem;  
+    }
+
+    /* Testimonial Section */
+
+    #testimonials{
+        background-color:#ff6363 ;
+        color: white;
+        text-align: center;
+
+    }
+    .testimonial-text{
+        font-size: 2.5rem;
+    line-height: 1.5;
+    }
+    .testimonial-image{
+        width: 20%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    .carousel-item{
+        padding: 7% 15%;
+
+    }
+
+    /* Pricing Section */
+
+    #pricing{
+        padding:100px;
+        text-align: center;
+    }
+
+    .price-text{
+        font-size: 2.5rem;
+        line-height:1.5;
+    }
+    .pricing-column
+    {
+        padding: 3% 2%;
+    }
+
+
+    /* <!-- Footer --> */
+
+    #cta{
+        background-color: #ff6363;
+        padding:5%;
+        text-align: center;
+        color: white;
+        line-height: 5em;
+    }
+    #footer{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+
+    /* Media Query */
+
+    @media(max-width: 1080px)
+    {
+        .title-image{
+            transform: rotate(0);
+            text-align: center;
+        }
+        #title{
+            text-align:center;
+        }
+    }
